@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "378777967277",
+    "firebase_url": "https://alumnichat-bce36.firebaseio.com",
+    "project_id": "alumnichat-bce36",
+    "storage_bucket": "alumnichat-bce36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378777967277:android:c3af6a983213a2f7",
+        "android_client_info": {
+          "package_name": "com.example.ambeshtiwari.alumnichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378777967277-6u2i2auu8ng7ttfk6b06n5dbbqeushbp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ambeshtiwari.alumnichat",
+            "certificate_hash": "b48113b4d6cd215b06b5d9ebead36a26c2ba1a25"
+          }
+        },
+        {
+          "client_id": "378777967277-b3skq26pnp2ksnppdea9u693j02o2jhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBy-USi1S18pHUVwX9mHPvb196Of-m-d78"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378777967277-b3skq26pnp2ksnppdea9u693j02o2jhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

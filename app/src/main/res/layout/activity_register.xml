@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_back"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context="com.example.ambeshtiwari.alumnichat.RegisterActivity"
+    android:gravity="top">
+
+
+
+        <AutoCompleteTextView
+            android:id="@+id/register_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:hint="Username"
+            android:textColor="@android:color/holo_green_dark"
+            android:textColorHint="@android:color/white"
+            android:inputType="textNoSuggestions"
+            android:imeOptions="actionNext"
+            android:maxLines="1"
+            android:textIsSelectable="false"
+            android:textStyle="bold"/>
+
+        <AutoCompleteTextView
+            android:id="@+id/register_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="25sp"
+            android:imeOptions="actionNext"
+            android:textColorHint="@android:color/white"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:textIsSelectable="false"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/register_password"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:imeOptions="actionNext"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/register_confirm_password"
+            android:textSize="25sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            android:textStyle="bold"/>
+        <ProgressBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80sp"
+            android:id="@+id/progressbar1"
+            android:visibility="invisible"
+            />
+
+    <Button
+        android:id="@+id/register_sign_up_button"
+        style="?android:textAppearanceMedium"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_dark"
+        android:onClick="signUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="SIGN UP"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>
